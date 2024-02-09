@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;/*  this has to be removes*/
+}
+:root{
+    --bg-color : #000000;
+    --standard-heading-size:40px;
+    --standard-content-size:30px;
+    --secondary-color:#00ADB5;
+}
+body{
+    background-color: var(--bg-color);
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.name-photo{
+    display: flex;
+
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--standard-heading-size);
+    text-transform: capitalize;
+    padding: 20px;
+}
+.main-img{
+     height:100px ;
+     width: 100px;
+     border-radius: 100%;
+     margin-left: 20px;
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+nav .side-projects{
+    display: flex;
+    font-size: var(--standard-heading-size);
+}
+nav .side-projects .project{
+    margin: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 50px;
+    padding: 10px;
+}
+.anchor{
+    text-decoration: none;
+}
+.skill-heading{
+    font-size: var(--standard-heading-size);
+    text-align: center;
+    color: var(--secondary-color);
+
+}
+.all-skills-flex{
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-skills{
+    margin: 60px;
+    font-size: var(--standard-content-size);
+}
+.about-section{
+    text-align: center;
+}
+.about-heading{
+      font-size: var(--standard-heading-size);
+      margin: 50px;
+      color: var(--secondary-color);
+}
+.Main-content-box{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main-content{
+    font-size: var(--standard-content-size);
+}
+.my-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.icon{
+    margin: 20px;
+}
+.logo{
+    height: var(--standard-content-size);
+    width: var(--standard-content-size);
+}
